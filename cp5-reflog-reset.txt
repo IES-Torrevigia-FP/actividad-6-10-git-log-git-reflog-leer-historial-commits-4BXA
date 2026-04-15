@@ -1,0 +1,21 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git reset --hard 87316f5
+HEAD está ahora en 87316f5 Actualiza main antes de integrar A
+
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git reflog
+87316f5 (HEAD -> main) HEAD@{0}: reset: moving to 87316f5
+0bc5866 HEAD@{1}: commit (merge): merge feature-a
+87316f5 (HEAD -> main) HEAD@{2}: commit: Actualiza main antes de integrar A
+4b6afd7 HEAD@{3}: checkout: moving from feature-b to main
+5f65592 (feature-b-recuperada) HEAD@{4}: commit: Añade funcionalidad B
+4b6afd7 HEAD@{5}: checkout: moving from main to feature-b
+4b6afd7 HEAD@{6}: checkout: moving from feature-a to main
+d9c4e36 (feature-a) HEAD@{7}: commit: Añade funcionalidad A
+4b6afd7 HEAD@{8}: checkout: moving from main to feature-a
+4b6afd7 HEAD@{9}: commit: Commit inicial
+8542f7e (origin/main, origin/HEAD) HEAD@{10}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA.git
+
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git reset --hard 0bc5866
+HEAD está ahora en 0bc5866 merge feature-a
+

@@ -1,0 +1,17 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git reflog
+0bc5866 (HEAD -> main) HEAD@{0}: commit (merge): merge feature-a
+87316f5 HEAD@{1}: commit: Actualiza main antes de integrar A
+4b6afd7 HEAD@{2}: checkout: moving from feature-b to main
+5f65592 (feature-b) HEAD@{3}: commit: Añade funcionalidad B
+4b6afd7 HEAD@{4}: checkout: moving from main to feature-b
+4b6afd7 HEAD@{5}: checkout: moving from feature-a to main
+d9c4e36 (feature-a) HEAD@{6}: commit: Añade funcionalidad A
+4b6afd7 HEAD@{7}: checkout: moving from main to feature-a
+4b6afd7 HEAD@{8}: commit: Commit inicial
+8542f7e (origin/main, origin/HEAD) HEAD@{9}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA.git
+
+
+
+Una explicación breve de qué diferencia hay entre git log y git reflog.
+
+git log muestra el historial público y oficial de los commits de una rama, mientras que git reflog es un registro local y privado que rastrea cada movimiento de la cabeza.

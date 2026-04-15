@@ -1,0 +1,12 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git log --oneline --graph --decorate --all
+*   0bc5866 (HEAD -> main) merge feature-a
+|\  
+| * d9c4e36 (feature-a) Añade funcionalidad A
+* | 87316f5 Actualiza main antes de integrar A
+|/  
+| * 5f65592 (feature-b) Añade funcionalidad B
+|/  
+* 4b6afd7 Commit inicial
+* 8542f7e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+

@@ -1,0 +1,32 @@
+Algunas salidas de git log que hayas probado (--oneline, --graph, filtros).
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git log --oneline --graph
+*   0bc5866 (HEAD -> main) merge feature-a
+|\  
+| * d9c4e36 (feature-a) Añade funcionalidad A
+* | 87316f5 Actualiza main antes de integrar A
+|/  
+* 4b6afd7 Commit inicial
+* 8542f7e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+El contenido de tu alias (git config --global alias.lg).
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git config --global alias.lg "log --oneline --graph --decorate --all"
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-4BXA$ git lg
+*   0bc5866 (HEAD -> main) merge feature-a
+|\  
+| * d9c4e36 (feature-a) Añade funcionalidad A
+* | 87316f5 Actualiza main antes de integrar A
+|/  
+| * 5f65592 (feature-b) Añade funcionalidad B
+|/  
+* 4b6afd7 Commit inicial
+* 8542f7e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+Una frase explicando cuál de las vistas de log te resulta más útil y por qué.
+
+git log --oneline --author="tu_nombre". Porque puedes ver los commits que han hecho ciertos usuarios.
